@@ -1,3 +1,6 @@
+# connecto to Exchange Online
+connect-ExchangeOnline -UserPrincipalName "admin@domain.com"
+
 # Define the shared mailbox and the user
 $sharedMailbox = "shared@domain.com"
 $user = "generic_user@domain.com"
